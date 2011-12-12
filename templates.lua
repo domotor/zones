@@ -13,6 +13,5 @@ function google_app(domain)
   cname(concat("sites", domain), "ghs.google.com")
   
   -- SPF records
-  txt(domain, "google-site-verification=NWtHwvxSQDOgc9jiLqn3hwrF42l81lINMOFOHY35OCY")
   txt(domain, "v=spf1 a mx include:_spf.google.com ~all")
 end
