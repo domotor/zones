@@ -1,8 +1,8 @@
 -- A records
 a(_a, "78.47.217.43")
-a("foto", "79.115.181.173")
-a("client", "79.115.181.173")
-a("vm", "79.115.181.173")
+a("foto", "")
+a("client", "")
+a("vm", "")
 
 -- CNAME records
 cname("www", _a)
