@@ -1,6 +1,6 @@
 -- A records
 a(_a, "78.47.217.43")
-a("trac", "5.12.198.75")
+a("trac", "86.120.86.234")
 
 -- CNAME records
 cname("www", _a)
