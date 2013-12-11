@@ -13,4 +13,3 @@ cname("ftp", _a)
 google_app(_a)
 
 -- SPF records
-txt(domain, "google-site-verification=GlHSalWBa8Zfe2Vrj3ExnU0uwvDbVu9f1v8fXLTdguE")
