@@ -5,6 +5,7 @@ a("trac", "198.211.125.18")
 -- CNAME records
 cname("www", _a)
 cname("ftp", _a)
+cname("google134011994e422de8", google.com)
 
 -- Templates
 google_app(_a)
