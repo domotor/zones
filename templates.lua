@@ -9,6 +9,7 @@ function google_app(domain)
   cname(concat("docs", domain), "ghs.google.com")
   cname(concat("mail", domain), "ghs.google.com")
   cname(concat("sites", domain), "ghs.google.com")
+  cname(concat("google134011994e422de8", domain), "google.com")
   
   -- SPF records
   txt(domain, "v=spf1 a mx include:_spf.google.com ~all")
