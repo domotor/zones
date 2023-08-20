@@ -1,6 +1,5 @@
 -- A records
-a(_a, "198.211.125.18")
-a("trac", "198.211.125.18")
+a(_a, "68.183.3.70")
 
 -- CNAME records
 cname("www", _a)
