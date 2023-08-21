@@ -1,6 +1,9 @@
 -- A records
 a(_a, "68.183.3.70")
 
+-- AAAA records
+aaaa(_a, "2a03:b0c0:2:d0::101f:4001")
+
 -- CNAME records
 cname("www", _a)
 
