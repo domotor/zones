@@ -10,4 +10,4 @@ cname("www", _a)
 cname("ftp", _a)
 
 -- SPF records
-txt(_a, "v=spf1 a ipv4:68.183.3.70 -all")
+txt(_a, "v=spf1 a -all")
