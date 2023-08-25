@@ -9,7 +9,5 @@ aaaa(_a, "2a03:b0c0:2:d0::101f:4001")
 cname("www", _a)
 cname("ftp", _a)
 
--- Templates
-google_app(_a)
-
 -- SPF records
+txt(_a, "v=spf1 a ipv4:68.183.3.70 -all")
