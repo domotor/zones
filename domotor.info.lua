@@ -18,3 +18,6 @@ txt(_a, "v=spf1 mx a -all")
 
 -- DMARC Records
 txt("_dmarc", "v=DMARC1; p=none;")
+
+-- DKIM Records
+txt("_domainkey", "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2K1RieixRryARYWPiiUdnpD/hoK0y+lPOvLDLhh4/+bpvhR3f55C9OXaF2CoOEvbOzBd/4HokMUCGiubqV8GLvYjZfy0FCfyvCKpVnNeThHNSuI27rxbmje/ntlw9SAecxQmGBo8mj8GDboPOFDQZS1h/cbhUuBwtyF1CZuThVFFgC03KdGUaiyMfVsYF44Nj8KdE3D3g8Ucyw4kweyoD6X6sC4oTolSwZ/Pt0o5qFrLC6pnQh/18JqdkJYnBIfYOAtEvPLtsK5aZrndrCVwpouVUtPzn9hAqult7EX479bnMr9arWaAHYBfYbfTRX8hIBCAdTejyVqwFOScqs/U4wIDAQAB")
