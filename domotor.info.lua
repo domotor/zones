@@ -11,7 +11,10 @@ cname("www", _a)
 cname("ftp", _a)
 
 -- MX records
-mx(_a, "mail.domotor.info", 10)
+mx(_a, concat("mail", _a), 10)
 
 -- SPF records
 txt(_a, "v=spf1 mx a -all")
+
+-- DMARC Records
+txt("_dmarc", "v=DMARC1; p=none;")
